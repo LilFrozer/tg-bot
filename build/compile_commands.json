@@ -1,13 +1,13 @@
 [
 {
   "directory": "/Users/alekseypodoplelov/Documents/tg-bot/build",
-  "command": "/usr/bin/c++ -DBOOST_ASIO_USE_STD_ERIC=1 -DBOOST_BEAST_USE_STD_ERIC=1 -I/Users/alekseypodoplelov/Documents/tg-bot/include -I/Users/alekseypodoplelov/Documents/tg-bot/libs -I/opt/homebrew/include -I/Users/alekseypodoplelov/Documents/tg-bot/src -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/tgbot.dir/src/main.cpp.o -c /Users/alekseypodoplelov/Documents/tg-bot/src/main.cpp",
+  "command": "/usr/bin/c++ -DBOOST_ASIO_USE_STD_ERIC=1 -DBOOST_BEAST_USE_STD_ERIC=1 -I/Users/alekseypodoplelov/Documents/tg-bot/include -I/Users/alekseypodoplelov/Documents/tg-bot/libs -I/opt/homebrew/include -I/Users/alekseypodoplelov/Documents/tg-bot/src -isystem /opt/homebrew/Cellar/openssl@3/3.6.2/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/tgbot.dir/src/main.cpp.o -c /Users/alekseypodoplelov/Documents/tg-bot/src/main.cpp",
   "file": "/Users/alekseypodoplelov/Documents/tg-bot/src/main.cpp",
   "output": "CMakeFiles/tgbot.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/alekseypodoplelov/Documents/tg-bot/build",
-  "command": "/usr/bin/c++ -DBOOST_ASIO_USE_STD_ERIC=1 -DBOOST_BEAST_USE_STD_ERIC=1 -I/Users/alekseypodoplelov/Documents/tg-bot/include -I/Users/alekseypodoplelov/Documents/tg-bot/libs -I/opt/homebrew/include -I/Users/alekseypodoplelov/Documents/tg-bot/src -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/tgbot.dir/src/Bot.cpp.o -c /Users/alekseypodoplelov/Documents/tg-bot/src/Bot.cpp",
+  "command": "/usr/bin/c++ -DBOOST_ASIO_USE_STD_ERIC=1 -DBOOST_BEAST_USE_STD_ERIC=1 -I/Users/alekseypodoplelov/Documents/tg-bot/include -I/Users/alekseypodoplelov/Documents/tg-bot/libs -I/opt/homebrew/include -I/Users/alekseypodoplelov/Documents/tg-bot/src -isystem /opt/homebrew/Cellar/openssl@3/3.6.2/include -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o CMakeFiles/tgbot.dir/src/Bot.cpp.o -c /Users/alekseypodoplelov/Documents/tg-bot/src/Bot.cpp",
   "file": "/Users/alekseypodoplelov/Documents/tg-bot/src/Bot.cpp",
   "output": "CMakeFiles/tgbot.dir/src/Bot.cpp.o"
 }

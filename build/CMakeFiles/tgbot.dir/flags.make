@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DBOOST_ASIO_USE_STD_ERIC=1 -DBOOST_BEAST_USE_STD_ERIC=1
 
-CXX_INCLUDES = -I/Users/alekseypodoplelov/Documents/tg-bot/include -I/Users/alekseypodoplelov/Documents/tg-bot/libs -I/opt/homebrew/include -I/Users/alekseypodoplelov/Documents/tg-bot/src
+CXX_INCLUDES = -I/Users/alekseypodoplelov/Documents/tg-bot/include -I/Users/alekseypodoplelov/Documents/tg-bot/libs -I/opt/homebrew/include -I/Users/alekseypodoplelov/Documents/tg-bot/src -isystem /opt/homebrew/Cellar/openssl@3/3.6.2/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
 

@@ -111,6 +111,8 @@ tgbot_EXTERNAL_OBJECTS =
 tgbot: CMakeFiles/tgbot.dir/src/main.cpp.o
 tgbot: CMakeFiles/tgbot.dir/src/Bot.cpp.o
 tgbot: CMakeFiles/tgbot.dir/build.make
+tgbot: /opt/homebrew/Cellar/openssl@3/3.6.2/lib/libssl.dylib
+tgbot: /opt/homebrew/Cellar/openssl@3/3.6.2/lib/libcrypto.dylib
 tgbot: CMakeFiles/tgbot.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alekseypodoplelov/Documents/tg-bot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tgbot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tgbot.dir/link.txt --verbose=$(VERBOSE)

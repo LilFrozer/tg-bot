@@ -16,6 +16,8 @@ find_path(BOOST_INCLUDE_DIR
   REQUIRED
 )
 
+find_package(OpenSSL REQUIRED)
+
 add_executable(tgbot
   src/main.cpp
   src/Bot.cpp
@@ -27,6 +29,14 @@ target_include_directories(
         tgbot PRIVATE
         ${BOOST_INCLUDE_DIR}
         src
+)
+
+# Линкуем библиотеки
+target_link_libraries(tgbot
+    ${Boost_LIBRARIES}
+    OpenSSL::SSL
+    OpenSSL::Crypto
+    pthread
 )
 
 # Говорим Beast использовать std::error_code вместо boost::system::error_code
